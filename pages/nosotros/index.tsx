@@ -24,7 +24,7 @@ export default function nosotros() {
             </div>
 
             <div>
-              <h4 className='my-4 text-primary-sm text-3xl font-bold'>Sobre Nosotros</h4>
+              <h4 className='my-4 text-primary-sm text-3xl font-bold text-center'>Sobre Nosotros</h4>
               <p className='text-justify'>
                 Hoy por hoy San Román es uno de los líderes en el rubro inmobiliario de la ciudad de Juliaca gracias al
                 gran equipo capacitado con la que cuenta y la gran acogida del mercado, la empresa tuvo un gran
@@ -36,7 +36,7 @@ export default function nosotros() {
               </p>
             </div>
           </section>
-          <section className='grid grid-cols-2 gap-4 sm:w-2/3'>
+          <section className='grid sm:grid-cols-2 gap-4 sm:w-2/3 mx-3'>
             <div className='  border border-primary-sm0 rounded-2xl'>
 
 
