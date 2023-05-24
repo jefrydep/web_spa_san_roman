@@ -1,0 +1,145 @@
+
+[
+    
+    {
+        "id":"1",
+        "projecto":"Residencial villa tariachi",
+        "img":"/assets/img/merida.jpg",
+        "logo":"/assets/img/tariachi.png",
+        "descriptionImg":"tariachi",
+        "details":  {
+                
+            "ubicacion":"Caracoto",
+            "area":"2000m2",
+            "precio":"S/1"
+
+        }
+    },
+    {
+        "id":"2",
+        "projecto":"Perlas de Chingora",
+        "img":"/assets/img/quiñones.jpg",
+        "logo":"/assets/img/chingora.png",
+        "descriptionImg":"chingora",
+      
+         
+        
+        "details":  {
+                
+            "ubicacion":"Salida Cusco",
+            "area":"2000m2",
+            "precio":"S/1500"
+
+        }
+
+    },
+    {
+        "id":"3",
+        "projecto":"projecto Merida",
+        "img":"/assets/img/rosales.jpg",
+        "logo":"/assets/img/merida.png",
+        "descriptionImg":"merida",
+       
+        "details":  {
+                
+            "ubicacion":"Caracoto",
+            "area":"2000m2",
+            "precio":"S/2000"
+
+        }
+
+    },
+    {
+        "id":"4",
+        "projecto":"Residencial Monumental",
+        "img":"/assets/img/estrella.jpg",
+        "logo":"/assets/img/monumental.png",
+        "descriptionImg":"Residencial Monumental",
+       
+        "details":  {
+                
+            "ubicacion":"Caracoto",
+            "area":"2000m2",
+            "precio":"S/2000"
+
+        }
+
+    },
+    {
+        "id":"5",
+        "projecto":"Nueva Estrella",
+        "img":"/assets/img/mr-robot.jpg",
+        "logo":"/assets/img/nueva_estrella.png",
+        "descriptionImg":"Nueva estrella",
+
+       
+        "details":  {
+                
+            "ubicacion":"Salida Lampa",
+            "area":"2000m2",
+            "precio":" Desde S/4000"
+
+        }
+
+    },
+    {
+        "id":"6",
+        "projecto":"Residencial Quiñones 1ra Etapa",
+        "img":"/assets/img/estrella.jpg",
+        "logo":"/assets/img/quiñones.png",
+        "descriptionImg":"quiñones",
+        
+        "details":  {
+                
+            "ubicacion":"Caracoto",
+            "area":"2000m2",
+            "precio":"Desde S/8000"
+
+        }
+    },
+    {
+        "id":"7",
+        "projecto":"Residencial Quiñones 2da Etapa",
+        "img":"/assets/img/merida.jpg",
+        "logo":"/assets/img/quiñones2.png",
+        "descriptionImg":"quiñones II",
+        
+        "details":  {
+                
+            "ubicacion":"Salida Lampa",
+            "area":"2000m2",
+            "precio":"Desde S/8000"
+
+        }
+    },
+    {
+        "id":"8",
+        "projecto":"Urbanizacion Rosales",
+        "img":"/assets/img/rosales.jpg",
+        "logo":"/assets/img/rosales.png",
+        "descriptionImg":"quiñones II",
+        
+        "details":  {
+                
+            "ubicacion":"Salida Lampa",
+            "area":"2000m2",
+            "precio":"Desde S/8000"
+
+        }
+    },
+    {
+        "id":"9",
+        "projecto":"Urbanizacion Rosales",
+        "img":"/assets/img/rosales.jpg",
+        "logo":"/assets/img/rosales.png",
+        "descriptionImg":"quiñones II",
+        
+        "details":  {
+                
+            "ubicacion":"Salida Lampa",
+            "area":"2000m2",
+            "precio":"Desde S/8000"
+
+        }
+    }
+]
