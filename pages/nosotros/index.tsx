@@ -1,5 +1,6 @@
 import Hero from '@/components/hero/Hero';
 import CardNosotros from '@/components/nosotros/CardNosotros';
+import Image from 'next/image';
 import React from 'react'
 import { BsSend } from "react-icons/bs";
 import { BsHeartFill } from "react-icons/bs";
@@ -7,16 +8,37 @@ export default function nosotros() {
   const dataHome = [
     {
       slogan:
-        "yo",
+        "¿Quienes Somos?",
       imgUrl: "/assets/img/nosotros.jpg",
     },
   ];
   return (
     <>
-      <Hero imgUrl={dataHome[0].imgUrl} slogan={dataHome[0].slogan}   />
+      <Hero imgUrl={dataHome[0].imgUrl} slogan={dataHome[0].slogan} />
 
       <div className='container m-auto  '>
+        <div>
+          <section className='px-4 mx-2  first-line: flex flex-col mb-2 pb-2 pt-3 mt-2 bg-white'>
+            <div>
+              <Image src='/assets/img/nosotros.jpg' height={500} width={400} alt='San Roman' />
+            </div>
+            <div className=' text-center text-3xl font-bold text-primary-sm mb-2'>
 
+              <h4>Sobre Nosotros</h4>
+            </div>
+            <div>
+              <p>
+                Hoy por hoy San Román es uno de los líderes en el rubro inmobiliario de la ciudad de Juliaca gracias al
+                gran equipo capacitado con la que cuenta y la gran acogida del mercado, la empresa tuvo un gran
+                crecimiento en tan solo un año y San Román más allá de vender lotes o casas vende desarrollo para las
+                ciudades y un hogar para las familias.
+                SAN ROMAN CONSTRUCTORA INMOBILIARIA SAC, está especializada en actividades inmobiliarias
+                realizadas con bienes propios o arrendados. Esta registrada dentro de las sociedades mercantiles y
+                comerciales como una SOCIEDAD ANONIMA CERRADA.
+              </p>
+            </div>
+          </section>
+        </div>
         {/* <section className="text-center mb-5">
 
 
@@ -78,13 +100,7 @@ export default function nosotros() {
 
           </div>
         </section> */}
-        <CardNosotros title='Sobre Nosotros' description='Hoy por hoy San Román es uno de los líderes en el rubro inmobiliario de la ciudad de Juliaca gracias al
-            gran equipo capacitado con la que cuenta y la gran acogida del mercado, la empresa tuvo un gran
-            crecimiento en tan solo un año y San Román más allá de vender lotes o casas vende desarrollo para las
-            ciudades y un hogar para las familias.
-            SAN ROMAN CONSTRUCTORA INMOBILIARIA SAC, está especializada en actividades inmobiliarias
-            realizadas con bienes propios o arrendados. Esta registrada dentro de las sociedades mercantiles y
-            comerciales como una SOCIEDAD ANONIMA CERRADA.' />
+
         <CardNosotros title='Mision' icono={<BsHeartFill />} description='Nuestra misión como empresa constructora e inmobiliaria es la cooperación proactiva para el
                 desarrollo de nuestra región. Desarrollo de proyectos y construcciones de acuerdo con los
                 estándares más exigentes, en seguridad, calidad y puntualidad. Satisfacer las necesidades y
