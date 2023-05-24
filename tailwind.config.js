@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -14,6 +15,8 @@ module.exports = {
       },
       fontFamily: {
         libre: ['Libre Baskerville', 'serif'],
+        SVNgilroy: ['SVN', 'Gilroy'],
+        
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

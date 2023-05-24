@@ -4,7 +4,7 @@
     {
         "id":"1",
         "projecto":"Residencial villa tariachi",
-        "img":"/assets/img/merida.jpg",
+        "img":"/assets/img/residencial-tariachi.png",
         "logo":"/assets/img/tariachi.png",
         "descriptionImg":"tariachi",
         "details":  {
@@ -18,7 +18,7 @@
     {
         "id":"2",
         "projecto":"Perlas de Chingora",
-        "img":"/assets/img/quiñones.jpg",
+        "img":"/assets/img/urb-perlasdechingora.jpg",
         "logo":"/assets/img/chingora.png",
         "descriptionImg":"chingora",
       
@@ -36,7 +36,7 @@
     {
         "id":"3",
         "projecto":"projecto Merida",
-        "img":"/assets/img/rosales.jpg",
+        "img":"/assets/img/urb-merida.png",
         "logo":"/assets/img/merida.png",
         "descriptionImg":"merida",
        
@@ -68,7 +68,7 @@
     {
         "id":"5",
         "projecto":"Nueva Estrella",
-        "img":"/assets/img/mr-robot.jpg",
+        "img":"/assets/img/urb-nuevaestrella.jpg",
         "logo":"/assets/img/nueva_estrella.png",
         "descriptionImg":"Nueva estrella",
 
@@ -85,7 +85,7 @@
     {
         "id":"6",
         "projecto":"Residencial Quiñones 1ra Etapa",
-        "img":"/assets/img/estrella.jpg",
+        "img":"/assets/img/residencial-quiñones.png",
         "logo":"/assets/img/quiñones.png",
         "descriptionImg":"quiñones",
         
@@ -115,7 +115,7 @@
     {
         "id":"8",
         "projecto":"Urbanizacion Rosales",
-        "img":"/assets/img/rosales.jpg",
+        "img":"/assets/img/urb-rosales.png",
         "logo":"/assets/img/rosales.png",
         "descriptionImg":"quiñones II",
         

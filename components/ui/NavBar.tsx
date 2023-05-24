@@ -33,6 +33,9 @@ const router = useRouter()
             <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/nosotros' &&'text-primary-sm' } `} href={"/nosotros"}>
               Nosotros 
             </Link>
+            <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/nosotros' &&'text-primary-sm' } `} href={"/asesores"}>
+              Asesores 
+            </Link>
           </div>
           <div
             onClick={() => setMovilMenu(!movilMenu)}
