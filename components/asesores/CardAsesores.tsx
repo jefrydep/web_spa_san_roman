@@ -2,21 +2,32 @@ import Image from 'next/image'
 import React from 'react'
 import { MdCall, MdEmail, MdFacebook, MdWhatsapp } from 'react-icons/md'
 
-const CardAsesores = () => {
+interface PropsAsesores{
+    name:string;
+    img:string;
+    nivel:string;
+    correo:string;
+    whatssap:string;
+    facebook:string;
+    
+
+
+}
+const CardAsesores = ({name,img,nivel,correo,whatssap,facebook}:PropsAsesores) => {
     return (
         < >
-            <div className='shadow-lg py-8 bg-white rounded-xl px-5'>
+            <div className='shadow-lg py-8 mx-2 sm:mx-0 bg-white rounded-xl px-5'>
 
                 <div className='  flex items-center flex-col gap-2 mb-5'>
-                    <div className='rounded-full shadow-xl w-44 h-44   bg-cover ' style={{ backgroundImage: `url("/assets/img/eliot.png")` }}>
+                    <div className='rounded-full shadow-xl w-44 h-44   bg-cover ' style={{ backgroundImage: `url(${img})` }}>
 
                         {/* <Image className=' ' height={ 0} width={0 } alt='Jefrydep' src="/assets/img/mr-robot.jpg" /> */}
                     </div>
 
-                    <h3>Palomino Mayta Godofredo</h3>
-                    <h4>power dev</h4>
+                    <h3>{name}</h3>
+                    <h4>{nivel} </h4>
                     <div className='flex gap-4'>
-                        <div className='bg-green-500 rounded-full w-10 h-10 flex items-center justify-center'> <MdWhatsapp size={24}   color='white'  /></div>
+                        <div className='bg-green-500 rounded-full w-10 h-10 flex items-center justify-center'> <MdWhatsapp size={24} href='https://www.gmail.com/mail/help/intl/es/about.html?iframe'  color='white'  /></div>
                         <div className='bg-blue-500 rounded-full w-10 h-10 flex items-center justify-center'><MdEmail size={24}   color='white' /></div>
                         <div className='bg-red-500 rounded-full w-10 h-10 flex items-center justify-center'> <MdCall  size={24}  color='white'/></div>
                     </div>
@@ -29,10 +40,11 @@ const CardAsesores = () => {
                         <a
                             className="text-lg text-second-sm "
                             target="_blank"
-                            href="https://wa.me/51953306637"
+                            // href="https://wa.me/51953306637"
+                            href={`https://wa.me/51${whatssap}`}
                             
                         >
-                            953306637
+                           {whatssap}
                         </a>
                     </div>
                     <div className='flex'>
@@ -44,7 +56,7 @@ const CardAsesores = () => {
                             target="_blank"
                             href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"
                         >
-                            inmobiliariasanro@gmail.com
+                           {correo}
                         </a>
                     </div>
                     <div className='flex'>
@@ -54,7 +66,7 @@ const CardAsesores = () => {
                         <a
                             className="text-lg text-second-sm"
                             target="_blank"
-                            href="https://www.facebook.com/SanRomanConstructoraInmobiliaria/"
+                            href={facebook}
                         >
                             facebook
                         </a>

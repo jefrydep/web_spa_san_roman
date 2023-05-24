@@ -27,13 +27,11 @@ const router = useRouter()
             <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/contact' &&'text-primary-sm' } `} href={"/contact"}>
               Contactanos
             </Link>
-            {/* <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/project' &&'text-primary-sm' } `} href={"/project"}>
-              proyectos
-            </Link> */}
+           
             <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/nosotros' &&'text-primary-sm' } `} href={"/nosotros"}>
               Nosotros 
             </Link>
-            <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/nosotros' &&'text-primary-sm' } `} href={"/asesores"}>
+            <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/asesores' &&'text-primary-sm' } `} href={"/asesores"}>
               Asesores 
             </Link>
           </div>
@@ -70,6 +68,13 @@ const router = useRouter()
               className=" text-white  " href={"/nosotros"}>
                 Nosotros
               </Link>
+              
+              <Link
+               onClick={() => setMovilMenu(false)}
+              className=" text-white  " href={"/asesores"}>
+                asesores
+              </Link>
+              
 
                
             </nav>

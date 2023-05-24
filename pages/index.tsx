@@ -15,15 +15,15 @@ console.log(data)
     {
       slogan:
         " Trabajamos para que alcance el sueño de tener TU PROPIA VIVIENDA",
-      imgUrl: "bg-[url('/assets/img/quiñones.jpg')]",
+      imgUrl: "bg-[url('/assets/img/urb-nuevaestrella.jpg')]",
     },
   ];
   return (
     <>
-      <section className="bg-[url('/assets/img/quiñones.jpg')] bg-fixed sm:bg-contain bg-cover  bg-center h-[60vh]">
+      <section className="bg-[url('/assets/img/urb-nuevaestrella.jpg')] bg-fixed    bg-cover   h-[60vh]">
         <div className="flex flex-col gap-6 h-full   justify-around items-center  ">
-          <div className="bg-primary-sm absolute shadow-lg  max-w-3xl mx-4  ">
-            <div className="bg-white relative -top-7 shadow-md   px-4 py-2 text-center h-24 mx-6">
+          <div className="bg-primary-sm absolute shadow-lg  max-w-3xl mx-4 rounded-xl ">
+            <div className="bg-white relative -top-7 shadow-md rounded-xl   px-4 py-2 text-center h-24 mx-6">
               <h2 className="font-bold text-xl sm:text-3xl  text-primary-sm">
                 Trabajamos para que alcance el sueño de tener TU PROPIA VIVIENDA
               </h2>
