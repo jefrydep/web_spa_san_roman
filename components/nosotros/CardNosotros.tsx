@@ -13,7 +13,7 @@ const CardNosotros = ({ title, description, icono }: PropsNosotros) => {
 
     return (
         < >
-            <section className='px-4 mx-2 shadow-lg flex flex-col mb-2 pb-2 pt-3 mt-2 bg-white'>
+            <section className='px-4 mx-2   flex flex-col mb-2 pb-2 pt-3 mt-2 bg-white'>
                 <div className='self-center flex flex-col items-center'>
 
                     <div className='text-6xl text-primary-sm mb-2 '>
