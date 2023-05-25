@@ -24,15 +24,15 @@ const router = useRouter()
                
                Inicio 
             </Link>
-            <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/contact' &&'text-primary-sm' } `} href={"/contact"}>
-              Contactanos
-            </Link>
            
             <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/nosotros' &&'text-primary-sm' } `} href={"/nosotros"}>
               Nosotros 
             </Link>
             <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/asesores' &&'text-primary-sm' } `} href={"/asesores"}>
               Asesores 
+            </Link>
+            <Link className={`hover:text-primary-sm hidden sm:flex ${router.pathname == '/contact' &&'text-primary-sm' } `} href={"/contact"}>
+              Contactanos
             </Link>
           </div>
           <div
@@ -60,11 +60,6 @@ const router = useRouter()
               </Link >
               <Link
                onClick={() => setMovilMenu(false)}
-              className=" text-white  " href={"/contact"}>
-                Contactanos
-              </Link>
-              <Link
-               onClick={() => setMovilMenu(false)}
               className=" text-white  " href={"/nosotros"}>
                 Nosotros
               </Link>
@@ -75,6 +70,11 @@ const router = useRouter()
                 asesores
               </Link>
               
+              <Link
+               onClick={() => setMovilMenu(false)}
+              className=" text-white  " href={"/contact"}>
+                Contactanos
+              </Link>
 
                
             </nav>

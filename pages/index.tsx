@@ -61,7 +61,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="flex bg-gray-200 py-3 flex-col gap-3 text-center ">
+        <section className="flex bg-white py-3 flex-col gap-3 text-center ">
           <div className="text-4xl sm:py-8 py-4 sm:text-6xl  font-bold border-b-4 sm:border-0 border-second-sm rounded-full">
             <h2 className="text-gray-950">Nuestros</h2>
             <span className="text-yellow-500">Proyectos</span>
