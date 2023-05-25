@@ -49,8 +49,8 @@ export default function Project({}: Props) {
                 <h4 className="text-center font-bold text-2xl mb-3 text-second-sm">
                   Beneficios
                 </h4>
-                {project?.beneficios!.map((benficios) => (
-                  <li className="list-none mb-2 text-xl">✔ {benficios}</li>
+                {project?.beneficios!.map((benficios,index) => (
+                  <li key={index} className="list-none mb-2 text-xl">✔ {benficios}</li>
                 ))}
               </div>
             </div>
