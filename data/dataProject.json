@@ -13,7 +13,9 @@
             "area":"2000m2",
             "precio":"S/1"
 
-        }
+        },
+        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
+        
     },
     {
         "id":"2",
@@ -30,7 +32,8 @@
             "area":"2000m2",
             "precio":"S/1500"
 
-        }
+        },
+        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
 
     },
     {
@@ -46,7 +49,8 @@
             "area":"2000m2",
             "precio":"S/2000"
 
-        }
+        },
+        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
 
     },
     {
@@ -62,7 +66,8 @@
             "area":"2000m2",
             "precio":"S/2000"
 
-        }
+        },
+        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
 
     },
     {
@@ -79,7 +84,8 @@
             "area":"2000m2",
             "precio":" Desde S/4000"
 
-        }
+        },
+        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
 
     },
     {
@@ -95,7 +101,8 @@
             "area":"2000m2",
             "precio":"Desde S/8000"
 
-        }
+        },
+        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
     },
     {
         "id":"7",
@@ -110,7 +117,8 @@
             "area":"2000m2",
             "precio":"Desde S/8000"
 
-        }
+        },
+        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
     },
     {
         "id":"8",
@@ -125,7 +133,8 @@
             "area":"2000m2",
             "precio":"Desde S/8000"
 
-        }
+        },
+        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
     },
     {
         "id":"9",
@@ -140,6 +149,7 @@
             "area":"2000m2",
             "precio":"Desde S/8000"
 
-        }
+        },
+        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
     }
 ]

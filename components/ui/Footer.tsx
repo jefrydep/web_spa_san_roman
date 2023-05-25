@@ -116,7 +116,7 @@ const Footer = () => {
             </h3>
 
             <div className=" ">
-              <div className=" flex flex-col ">
+              <div className=" flex flex-col gap-3 ">
                 <Link
                   className={`hover:text-primary-sm0  ${
                     router.pathname == "/" && "text-primary-sm0"
@@ -133,9 +133,7 @@ const Footer = () => {
                 >
                   Contactanos
                 </Link>
-                     {/* <Link className={`hover:text-primary-sm0 hidden sm:flex ${router.pathname == '/project' &&'text-primary-sm0' } `} href={"/project"}>
-                     proyectos
-                   </Link> */}
+                      
                 <Link
                   className={`hover:text-primary-sm0 ${
                     router.pathname == "/nosotros" && "text-primary-sm0"
@@ -143,6 +141,15 @@ const Footer = () => {
                   href={"/nosotros"}
                 >
                   Nosotros
+                </Link>
+                      
+                <Link
+                  className={`hover:text-primary-sm0 ${
+                    router.pathname == "/asesores" && "text-primary-sm0"
+                  } `}
+                  href={"/asesores"}
+                >
+                  Asesores
                 </Link>
               </div>
             </div>
@@ -157,10 +164,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-center  text-gray-300 border-t-2 p-4  ">
+        <div className="text-center  text-gray-400 border-t-2 p-4  ">
           <h4>© Desarollado por JFH</h4>
-          <h4>2023 inmbiliariaSanRoman</h4>
-          <h4>2023 inmbiliariaSanRoman</h4>©
+        
+          <p>&copy; {new Date().getFullYear()} inmbiliariaSanRoman. Todos los derechos reservados.</p>
+           
         </div>
       </footer>
     </>
