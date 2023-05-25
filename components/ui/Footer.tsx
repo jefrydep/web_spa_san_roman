@@ -165,7 +165,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center  text-gray-400 border-t-2 p-4  ">
-          <h4>© Desarollado por JFH</h4>
+          <h4>© Desarollado por Team Covid</h4>
         
           <p>&copy; {new Date().getFullYear()} inmbiliariaSanRoman. Todos los derechos reservados.</p>
            
