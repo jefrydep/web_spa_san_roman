@@ -11,11 +11,11 @@ export default function App({ Component, pageProps }: AppProps) {
 
 
 
-   <Layout title="San roman">
+    
  
 
     <Component {...pageProps} />
     
-  </Layout>
+ 
     )
 }

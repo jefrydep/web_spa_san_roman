@@ -1,8 +1,11 @@
 import CardAsesores from "@/components/asesores/CardAsesores";
 import dataAsesores from "../../data/dataAsesores.json";
+import Layout from "@/components/layouts/Layout";
 
 export default function asesores() {
   return (
+    <Layout title="Asesores">
+
     <div className="bg-white ">
       <div className="bg-second-sm py-5 mb-20">
         <h2 className="text-6xl text-primary-sm text-center">
@@ -21,10 +24,11 @@ export default function asesores() {
               nivel={asesor.nivel}
               whatssap={asesor.whatssap}
               key={asesor.id}
-            />
-          ))}
+              />
+              ))}
         </section>
       </section>
     </div>
+              </Layout>
   );
 }

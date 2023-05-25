@@ -1,3 +1,4 @@
+import Layout from '@/components/layouts/Layout';
 import React from 'react'
 import { MdWhatsapp, MdFacebook } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
@@ -6,6 +7,8 @@ import { SiInstagram, SiTiktok } from "react-icons/si";
 export default function contact   ()   {
   return (
     < > 
+    <Layout title='Contactanos'>
+
     <div className='container m-auto lg:py-40'>
 
      <div className=" p-4 lg:grid lg:grid-cols-2  "  >
@@ -48,6 +51,7 @@ export default function contact   ()   {
     
     </div>
     
+    </Layout>
      </ >
   )
 }
