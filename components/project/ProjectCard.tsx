@@ -1,7 +1,4 @@
 import React from 'react'
-import { GrAccessibility, GrMapLocation } from "react-icons/gr";
-import { IconType } from 'react-icons/lib';
-import { FaUser } from 'react-icons/fa';
 import { MdLandslide,MdAddLocationAlt } from "react-icons/md";
 import { GiPriceTag } from "react-icons/gi";
 

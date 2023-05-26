@@ -3,9 +3,6 @@ import Hero from "@/components/hero/Hero";
 import { useRouter } from "next/router";
 import { getProjectById } from "@/helpers/getProjectById";
 import ProjectCard from "@/components/project/ProjectCard";
-import { IconType } from "react-icons/lib";
-import { GrAccessibility, GrMapLocation } from "react-icons/gr";
-import { FaUser } from "react-icons/fa";
 import Layout from "@/components/layouts/Layout";
 import { GiPriceTag } from "react-icons/gi";
 interface Props {
@@ -75,14 +72,3 @@ export default function Project({}: Props) {
   );
 }
 
-// export async function getServerSideProps( {query}:any) {
-
-//   const data =await getProjectById(query);
-//   console.log(data)
-//   return {
-//     props: {
-//       // data
-
-//     }, // will be passed to the page component as props
-//   };
-// }

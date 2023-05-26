@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { MdWhatsapp, MdFacebook } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
-import { MdLandslide, MdAddLocationAlt } from "react-icons/md";
+import { MdAddLocationAlt } from "react-icons/md";
 import { SiInstagram, SiTiktok } from "react-icons/si";
 
 const Footer = () => {
@@ -14,13 +14,13 @@ const Footer = () => {
         <div className="flex container m-auto flex-col gap-4 sm:grid sm:grid-cols-4 p-4    text-gray-300 mt-4 px-6">
           <div>
             <h3 className="text-center font-bold text-xl mb-5 text-primary-sm0">
-              Inmobiliarias del Peru
+              Inmobiliarias del Perú
             </h3>
             <div className=" text-justify">
               <p className="">
                 02 años de expericiencia desarollando proyectos en los distritos
-                mas allegados de juliaca, nos permite manejar informacion que
-                nos posicionan como proyectos de alta revalorizacion y valor de
+                más allegados de juliaca, nos permite manejar información que
+                nos posicionan como proyectos de alta revalorización y valor de
                 compras.
               </p>
               <p>
@@ -156,7 +156,7 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-xl mb-5 font-bold text-primary-sm0">
-              Necesitas informacion
+              Necesitas información
             </h3>
             <div>
               <h4>whatsapp : 958203939</h4>

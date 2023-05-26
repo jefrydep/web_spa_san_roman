@@ -8,7 +8,6 @@ const Hero = ({ slogan, imgUrl, logo }: heroProps) => {
   return (
     <>
       <div className=" ">
-        {/* <section className={imgUrl + " " + "bg-fixed sm:bg-contain bg-cover bg-center h-[60vh]"}> */}
         <section className= "bg-fixed sm:bg-contain bg-cover bg-center h-[60vh]" style={{ backgroundImage: `url(${imgUrl})`}}>
           <div className="flex flex-col gap-6 h-full   justify-around items-center  ">
             <div className="bg-primary-sm absolute shadow-lg  max-w-3xl mx-4 rounded-xl ">

@@ -2,7 +2,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import {
-  AiFillAccountBook,
   AiOutlineMenu,
   AiOutlineClose,
 } from "react-icons/ai";
@@ -16,7 +15,6 @@ const router = useRouter()
 
         <nav className="container m-auto sm:text-xl text-second-sm font-bold my-2  items-center   flex gap-3 h-10 sm:h-14 ">
           <div>
-            {/* <h2 className="text-base  sm:text-xl ">Contructora & Inmobiliaria San Roman</h2> */}
             <img className="h-14" src="./assets/img/sanroman.svg" alt="Constructora San Roman" />
           </div>
           <div className="flex gap-20 sm:text-xl font-bold justify-end w-full ">

@@ -4,7 +4,7 @@ import Layout from "@/components/layouts/Layout";
 
 export default function asesores() {
   return (
-    <Layout title="Asesores">
+    <Layout title="Asesores" >
 
     <div className="bg-white ">
       <div className="bg-second-sm py-5 mb-20">

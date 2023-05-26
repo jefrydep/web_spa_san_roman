@@ -2,7 +2,7 @@ import Layout from '@/components/layouts/Layout';
 import React from 'react'
 import { MdWhatsapp, MdFacebook } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
-import { MdLandslide,MdAddLocationAlt } from "react-icons/md";
+import { MdAddLocationAlt } from "react-icons/md";
 import { SiInstagram, SiTiktok } from "react-icons/si";
 export default function contact   ()   {
   return (

@@ -9,7 +9,7 @@ interface propsImg {
   precio: string;
   logo: string;
 }
-const Project = ({ img, imgTitle, id, proyecto, precio, logo }: propsImg) => {
+const Project = ({ img, imgTitle, id, logo }: propsImg) => {
   const router = useRouter();
   const handleProject = () => {
     router.push(`/project/${id}`);
@@ -23,20 +23,9 @@ const Project = ({ img, imgTitle, id, proyecto, precio, logo }: propsImg) => {
         <div className="border-2 border-second-sm rounded-2xl p-2">
           <div className="px-4 py-2 flex    justify-center   mb-5 ">
             <img className="h-16 " src={logo} alt="" />
-            {/* <div>
-
-<Image
-className="rounded-2xl"
-height={64}
-width={64}
-src={logo}
-alt="proyecto sanroman"
-/>
-</div> */}
+            
           </div>
           <div className=" ">
-            {/* <div className="h-5 bg-second-sm mb-4 rounded-xl"></div> */}
-            {/* <div className="h-1 bg-primary-sm0"></div> */}
 
             <Image
               className="md:hover:scale-110 rounded-lg"

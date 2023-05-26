@@ -1,7 +1,7 @@
-import Image from "next/image";
+
 import Link from "next/link";
 import React from "react";
-import { MdCall, MdEmail, MdFacebook, MdWhatsapp } from "react-icons/md";
+import { MdCall, MdEmail, MdWhatsapp } from "react-icons/md";
 
 interface PropsAsesores {
   name: string;
@@ -25,7 +25,6 @@ const CardAsesores = ({
             className="rounded-full shadow-xl w-44 h-44   bg-cover "
             style={{ backgroundImage: `url(${img})` }}
           >
-            {/* <Image className=' ' height={ 0} width={0 } alt='Jefrydep' src="/assets/img/mr-robot.jpg" /> */}
           </div>
 
           <h3>{name}</h3>
@@ -35,7 +34,6 @@ const CardAsesores = ({
               <Link target="_blank" href={`https://wa.me/51${whatssap}`}>
                 <MdWhatsapp
                   size={24}
-                  // href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"
                   color="white"
                 />
               </Link>
@@ -47,7 +45,6 @@ const CardAsesores = ({
               <Link target="_blank" href={`tel:+51${whatssap}`}>
                 <MdCall
                   size={24}
-                  // href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"
                   color="white"
                 />
               </Link>
@@ -63,7 +60,6 @@ const CardAsesores = ({
             <a
               className="text-lg text-second-sm "
               target="_blank"
-              // href="https://wa.me/51953306637"
               href={`https://wa.me/51${whatssap}`}
             >
               {whatssap}

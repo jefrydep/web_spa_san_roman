@@ -60,69 +60,6 @@ export default function nosotros() {
 
           </section>
         </div>
-        {/* <section className="text-center mb-5">
-
-
-
-
-
-
-
-
-
-
-<h3 className="  mb-5 mt-5 font-bold text-2xl sm:text-3xl text-orange-500 text-center text-justif">
-Sobre Nosotros
-</h3>
-<p className='text-justify px-4'>
-Hoy por hoy San Román es uno de los líderes en el rubro inmobiliario de la ciudad de Juliaca gracias al
-gran equipo capacitado con la que cuenta y la gran acogida del mercado, la empresa tuvo un gran
-crecimiento en tan solo un año y San Román más allá de vender lotes o casas vende desarrollo para las
-ciudades y un hogar para las familias.
-SAN ROMAN CONSTRUCTORA INMOBILIARIA SAC, está especializada en actividades inmobiliarias
-            realizadas con bienes propios o arrendados. Esta registrada dentro de las sociedades mercantiles y
-            comerciales como una SOCIEDAD ANONIMA CERRADA.
-          </p>
-          <section />
-          <div className="    ">
-          <section className='flex flex-col'>
-          
-          <div>
-          
-          <BsHeartFill />
-          <h3 className="font-bold text-xl sm:text-3xl text-orange-500  ">
-          
-          Mision
-          </h3>
-          </div>
-          
-          <p>
-          Nuestra misión como empresa constructora e inmobiliaria es la cooperación proactiva para el
-          desarrollo de nuestra región. Desarrollo de proyectos y construcciones de acuerdo con los
-          estándares más exigentes, en seguridad, calidad y puntualidad. Satisfacer las necesidades y
-          expectativas de nuestros clientes, todo con el único propósito de lograr que nuestros usuarios
-          obtengan el mejor retorno de su inversión, desarrollando y motivando a nuestros colaboradores
-          </p>
-          </section>
-          
-          <section>
-          
-          <h3 className=" font-bold text-xl sm:text-3xl text-orange-500 text-center">
-          <div className="text-7xl grid place-content-center font-bold text-orange-500"><BsSend /></div>
-          Vision
-          </h3>
-          <p>
-          Ser una empresa líder en construcción, consultoría e inmobiliaria, reconocida por su capacidad,
-          calidad y cumplimiento con las normas de seguridad; empleando los procedimientos constructivos
-          innovadores que van a permitir la construcción de obras más confortables la cual generara un mejor
-          estándar de vida a la población que confíen en nuestro equipo y la buena práctica que empleamos.
-          </p>
-          </section>
-          
-          </div>
-        </section> */}
-
-
       </div>
 
           </Layout>

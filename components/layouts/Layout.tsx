@@ -3,10 +3,9 @@ import React, { PropsWithChildren } from 'react'
 import NavBar from '../ui/NavBar'
 import Head from 'next/head'
 import Footer from '../ui/Footer'
+import { SiInstagram, SiTiktok } from "react-icons/si";
+import { MdFacebook } from "react-icons/md";
 import {
-  AiFillAccountBook,
-  AiOutlineMenu,
-  AiOutlineClose,
   AiOutlineWhatsApp
   
 } from "react-icons/ai";
@@ -31,15 +30,26 @@ const Layout = ({children,title}:PropsWithChildren<Props>) => {
         />
         <meta
           property="og:image"
-          // content={`${origin}/img/banner.png`}
         />
       </Head>
       <NavBar />
 
 
       <main className=''
-        
       >
+        
+        <div className='fixed bottom-2 rounded-full p-3 left-2 sm:my-20 bg-black'>
+            <a className='text-lg' target='_blank' href="https://www.tiktok.com/@sanromanconstructorain/"> <i className="fa fa-phone"></i>
+        <SiTiktok className='text-4xl text-white md:animate-pulse' href=' '/> </a>
+        </div>
+        <div className='fixed bottom-2 rounded-full p-3 left-2 sm:my-40 bg-pink-600'>
+            <a className='text-lg' target='_blank' href="https://www.instagram.com/san_roman_inmobliliaria/"> <i className="fa fa-phone"></i>
+        <SiInstagram className='text-4xl text-white md:animate-pulse' href=' '/> </a>
+        </div>
+        <div className='fixed bottom-2 rounded-full p-3 left-2 sm:my-60 bg-blue-600'>
+            <a className='text-lg' target='_blank' href="https://www.facebook.com/SanRomanConstructoraInmobiliaria/"> <i className="fa fa-phone"></i>
+        <MdFacebook className='text-4xl text-white md:animate-pulse' href=' '/> </a>
+        </div>
         <div className='fixed bottom-2 rounded-full p-3 left-2 bg-green-500'>
             <a className='text-lg' target='_blank' href="https://wa.me/51953306637"> <i className="fa fa-phone"></i>
         <AiOutlineWhatsApp className='text-4xl text-white md:animate-pulse' href=' '/> </a>

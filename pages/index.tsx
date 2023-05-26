@@ -1,4 +1,4 @@
-import Footer from "@/components/ui/Footer";
+
 import { Inter } from "next/font/google";
 
 import dataProject from "../data/dataProject.json";
@@ -79,7 +79,6 @@ export default function Home() {
             ))}
           </div>
         </section>
-        {/* <Footer/> */}
       </Layout>
     </>
   );
