@@ -18,7 +18,7 @@ export default function asesores() {
           {dataAsesores.map((asesor) => (
             <CardAsesores
               correo={asesor.correo}
-              facebook={asesor.facebook}
+              
               img={asesor.img}
               name={asesor.nombre}
               nivel={asesor.nivel}

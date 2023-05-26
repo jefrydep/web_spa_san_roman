@@ -20,9 +20,9 @@ const Project = ({ img, imgTitle, id, proyecto, precio, logo }: propsImg) => {
         className="    cursor-pointer shadow-md p-2      rounded-2xl mx-2"
         onClick={handleProject}
       >
-        <div className="border border-second-sm rounded-2xl p-2">
-          <div className="px-4 py-2 flex    justify-center    ">
-            <img className="h-16  " src={logo} alt="" />
+        <div className="border-2 border-second-sm rounded-2xl p-2">
+          <div className="px-4 py-2 flex    justify-center   mb-5 ">
+            <img className="h-16 " src={logo} alt="" />
             {/* <div>
 
 <Image
@@ -35,7 +35,7 @@ alt="proyecto sanroman"
 </div> */}
           </div>
           <div className=" ">
-            <div className="h-5 bg-second-sm mb-4 rounded-xl"></div>
+            {/* <div className="h-5 bg-second-sm mb-4 rounded-xl"></div> */}
             {/* <div className="h-1 bg-primary-sm0"></div> */}
 
             <Image

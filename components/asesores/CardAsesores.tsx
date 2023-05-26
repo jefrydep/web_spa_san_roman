@@ -9,7 +9,6 @@ interface PropsAsesores {
   nivel: string;
   correo: string;
   whatssap: string;
-  facebook: string;
 }
 const CardAsesores = ({
   name,
@@ -17,7 +16,6 @@ const CardAsesores = ({
   nivel,
   correo,
   whatssap,
-  facebook,
 }: PropsAsesores) => {
   return (
     <>
@@ -45,10 +43,16 @@ const CardAsesores = ({
             <div className="bg-blue-500 rounded-full w-10 h-10 flex items-center justify-center">
               <MdEmail size={24} color="white" />
             </div>
-            <div className="bg-red-500 rounded-full w-10 h-10 flex items-center justify-center">
-              {" "}
-              <MdCall size={24} color="white" />
+            <div className="bg-green-500 rounded-full w-10 h-10 flex items-center justify-center">
+              <Link target="_blank" href={`tel:+51958205138`}>
+                <MdCall
+                  size={24}
+                  // href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"
+                  color="white"
+                />
+              </Link>
             </div>
+            
           </div>
         </div>
         <div>
@@ -65,7 +69,7 @@ const CardAsesores = ({
               {whatssap}
             </a>
           </div>
-           
+
           <div className="flex">
             <h5 className="text-xl font-bold text-primary-sm0 mx-2">
               <MdEmail />
@@ -76,18 +80,6 @@ const CardAsesores = ({
               href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"
             >
               {correo}
-            </a>
-          </div>
-          <div className="flex">
-            <h5 className="text-xl font-bold text-primary-sm0 mx-2">
-              <MdFacebook />
-            </h5>
-            <a
-              className="text-lg text-second-sm"
-              target="_blank"
-              href={facebook}
-            >
-              facebook
             </a>
           </div>
         </div>

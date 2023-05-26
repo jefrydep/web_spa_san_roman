@@ -9,9 +9,9 @@
         "descriptionImg":"tariachi",
         "details":  {
                 
-            "ubicacion":"Caracoto",
+            "ubicacion":"Final de la Linea 23",
             "area":"2000m2",
-            "precio":"S/1"
+            "precio":"S/14000"
 
         },
         "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
@@ -45,18 +45,18 @@
        
         "details":  {
                 
-            "ubicacion":"Caracoto",
+            "ubicacion":"Salida Puno",
             "area":"2000m2",
-            "precio":"S/2000"
+            "precio":"S/10.000"
 
         },
-        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
+        "beneficios":["Tramite en Registros Publicos","Vias Aperturadas","Areas Verdes"]
 
     },
     {
         "id":"4",
         "projecto":"Residencial Monumental",
-        "img":"/assets/img/estrella.jpg",
+        "img":"/assets/img/proyecto_monumental.png",
         "logo":"/assets/img/monumental.png",
         "descriptionImg":"Residencial Monumental",
        
@@ -80,12 +80,12 @@
        
         "details":  {
                 
-            "ubicacion":"Salida Lampa",
+            "ubicacion":"Salida Cusco",
             "area":"2000m2",
-            "precio":" Desde S/4000"
+            "precio":" Desde S/4.500"
 
         },
-        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
+        "beneficios":["Areas Verdes y Parques","Area Educativa","Vias Aperturadas","Mega Mercado","Inscrito en Registos Publicos","Cerro con Tematica de Santuario","Transporte Permanente"]
 
     },
     {
@@ -97,17 +97,17 @@
         
         "details":  {
                 
-            "ubicacion":"Caracoto",
+            "ubicacion":"Salida Puno",
             "area":"2000m2",
-            "precio":"Desde S/8000"
+            "precio":"Desde S/6.000"
 
         },
-        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
+        "beneficios":["Portico de ingreso","Amplias Areas Verdes","Cancha de grass Deportiva","Vias Afirmadas","Proyeccion de Habilitacion Urbana"]
     },
     {
         "id":"7",
         "projecto":"Residencial Quiñones 2da Etapa",
-        "img":"/assets/img/merida.jpg",
+        "img":"/assets/img/residencial-quiñones.png",
         "logo":"/assets/img/quiñones2.png",
         "descriptionImg":"quiñones II",
         
@@ -129,27 +129,30 @@
         
         "details":  {
                 
-            "ubicacion":"Salida Lampa",
+            "ubicacion":"Salida Puno",
             "area":"2000m2",
-            "precio":"Desde S/8000"
+            "precio":"Desde S/26.000"
 
         },
-        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
+        "beneficios":["Alta Plusvalía","Inscrito en Registos Publicos","Areas Verdes","Vias Afirmadas"]
     },
     {
         "id":"9",
-        "projecto":"Urbanizacion Rosales",
-        "img":"/assets/img/rosales.jpg",
-        "logo":"/assets/img/rosales.png",
-        "descriptionImg":"quiñones II",
+        "projecto":"Perlas de Chingora",
+        "img":"/assets/img/urb-perlasdechingora.jpg",
+        "logo":"/assets/img/chingora.png",
+        "descriptionImg":"chingora",
+      
+         
         
         "details":  {
                 
-            "ubicacion":"Salida Lampa",
+            "ubicacion":"Salida Cusco",
             "area":"2000m2",
-            "precio":"Desde S/8000"
+            "precio":"S/1500"
 
         },
         "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
+
     }
 ]
