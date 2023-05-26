@@ -14,8 +14,9 @@ module.exports = {
         "primary-sm0":  "#fbd97f"
       },
       fontFamily: {
-        libre: ['Libre Baskerville', 'serif'],
-        SVNgilroy: ['SVN', 'Gilroy'],
+        // libre: ['Libre Baskerville', 'serif'],
+        // Roboto:['roboto'],
+        // Tsukimi: ['Tsukimi Rounded'],
         
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

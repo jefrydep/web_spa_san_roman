@@ -10,7 +10,7 @@ const Footer = () => {
   const router = useRouter();
   return (
     <>
-      <footer className="bg-second-sm font-SVNgilroy ">
+      <footer className="bg-second-sm">
         <div className="flex container m-auto flex-col gap-4 sm:grid sm:grid-cols-4 p-4    text-gray-300 mt-4 px-6">
           <div>
             <h3 className="text-center font-bold text-xl mb-5 text-primary-sm0">
