@@ -43,8 +43,8 @@ const CardAsesores = ({
             <div className="bg-blue-500 rounded-full w-10 h-10 flex items-center justify-center">
               <MdEmail size={24} color="white" />
             </div>
-            <div className="bg-green-500 rounded-full w-10 h-10 flex items-center justify-center">
-              <Link target="_blank" href={`tel:+51958205138`}>
+            <div className="bg-primary-sm rounded-full w-10 h-10 flex items-center justify-center">
+              <Link target="_blank" href={`tel:+51${whatssap}`}>
                 <MdCall
                   size={24}
                   // href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"
