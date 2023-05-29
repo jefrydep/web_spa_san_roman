@@ -25,7 +25,8 @@ const Hero = ({ slogan, imgUrl, logo }: heroProps) => {
               </h2>
             </div>
             <button className="hover:scale-110 text-white font-bold bg-primary-sm px-3 shadow-sm py-2 rounded-3xl text-xl">
-              contactanos
+            <a className='text-lg' target='_blank' href="https://wa.me/51953306637">
+              contactanos</a>
             </button>
           </div>
         </section>
