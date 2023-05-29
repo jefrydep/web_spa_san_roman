@@ -42,7 +42,10 @@ const router = useRouter()
         </nav>
         {movilMenu && (
           <div className=" bg-black absolute z-30    bg-opacity-70 left-0 top-0 bottom-0 w-full h-[100vh]  ">
-            <nav className="absolute left-1/3 flex flex-col items-center  gap-4 bg-black right-0 h-[100vh]">
+            <nav className="absolute left-1/3 flex flex-col items-center  gap-4 bg-second-sm right-0 h-[100vh]">
+            <div>
+            <img className="h-24" src="./assets/img/san-roman-1.png" alt="Constructora San Roman" />
+          </div>
               <div
                 onClick={() => setMovilMenu(!movilMenu)}
                 className="   top-2 right-2"

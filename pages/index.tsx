@@ -37,12 +37,13 @@ export default function Home() {
               </h2>
             </div>
             <button className="hover:scale-110 text-white font-bold bg-primary-sm px-3 shadow-sm py-2 rounded-3xl text-xl">
-              contactanos
+            <a className='text-lg' target='_blank' href="https://wa.me/51953306637">
+              contactanos</a>
             </button>
           </div>
         </section>
-        <section className="  text-white font-bold bg-second-sm sm:h-48     flex ">
-          <div className=" container m-auto flex flex-col   pt-6 pb-6 items-center gap-2 sm:grid  sm:grid-cols-4   ">
+        <section className="  text-white font-bold bg-second-sm sm:h-48 flex  ">
+          <div className="container m-auto flex flex-col pt-6 pb-6 items-center gap-2 sm:grid  sm:grid-cols-4   ">
             <h3 className="text-2xl lg:text-4xl text-primary-sm0 ">
               ¿ POR QUE ELEGIRNOS?
             </h3>

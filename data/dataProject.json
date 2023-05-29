@@ -12,9 +12,11 @@
             "ubicacion":"Final de la Linea 23",
             "area":"2000m2",
             "precio":"S/14000"
+            
 
         },
         "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
+        
         
     },
     {
@@ -23,6 +25,7 @@
         "img":"/assets/img/urb-perlasdechingora.jpg",
         "logo":"/assets/img/chingora.png",
         "descriptionImg":"chingora",
+        
       
          
         
@@ -33,7 +36,11 @@
             "precio":"S/1500"
 
         },
-        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
+        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"],
+        
+        "Map":{
+            
+        }
 
     },
     {
