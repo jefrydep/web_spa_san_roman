@@ -39,7 +39,8 @@ export default function contact   ()   {
               <a className='text-lg' target='_blank' href="https://www.tiktok.com/@sanromanconstructorain/">tiktok</a>
               </div>
         </div>
-        <form action="#" className='  flex flex-col gap-3 mt-4'  >
+        <form action="https://formspree.io/f/xpzeenqj" method='POST' className='  flex flex-col gap-3 mt-4' >
+        
             <h2 className='text-primary-sm font-bold text-2xl mb-7 sm:text-4xl'>O llena este formulario</h2>
             <input className='border w-full px-2 py-1' type="text" name="nombre" placeholder="Tu Nombre"  />
             <input className='border w-full px-2 py-1' type="emal" name="email" placeholder="Tu Email"  />
