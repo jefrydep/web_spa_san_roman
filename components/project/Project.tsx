@@ -12,6 +12,7 @@ interface propsImg {
 const Project = ({ img, imgTitle, id, logo }: propsImg) => {
   const router = useRouter();
   const handleProject = () => {
+
     router.push(`/project/${id}`);
   };
   return (
@@ -23,7 +24,7 @@ const Project = ({ img, imgTitle, id, logo }: propsImg) => {
         <div className="border-2 border-second-sm rounded-2xl p-2">
           <div className="px-4 py-2 flex    justify-center   mb-5 ">
             <img className="h-16 " src={logo} alt="" />
-            
+
           </div>
           <div className=" ">
 

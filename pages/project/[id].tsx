@@ -9,17 +9,18 @@ interface Props {
   id: string;
 }
 
-export default function Project({}: Props) {
+export default function Project({ }: Props) {
   const router = useRouter();
   if (!router.isReady) {
     return <div>cargando...</div>;
   }
   const { id } = router.query;
 
-  const beneficios = ["salu", "beneficios", "cantetna", "salbaguardar"];
 
   const project = getProjectById(String(id));
-
+  if (!project?.id) {
+    router.push('/')
+  }
   const detail = project?.details;
 
   console.log(project);
@@ -46,7 +47,7 @@ export default function Project({}: Props) {
                 <h4 className="text-center font-bold text-2xl mb-3 text-second-sm">
                   Beneficios
                 </h4>
-                {project?.beneficios!.map((benficios,index) => (
+                {project?.beneficios!.map((benficios, index) => (
                   <li key={index} className="list-none mb-2 text-xl">✔ {benficios}</li>
                 ))}
               </div>
@@ -56,14 +57,17 @@ export default function Project({}: Props) {
                 <div className="text-3xl font-bold  flex  items-center content-center justify-center text-center h-24 text-blue-950 ">
                   <h4>Ubicacion</h4>
                 </div>
-                <iframe
-                  className="w-full"
-                  height={500}
-                  id="gmap_canvas"
-                  src="https://maps.google.com/maps?width=541&amp;height=515&amp;hl=en&amp;q=san%20roman%20inmobiliaria%20juliaca+(Sanroman)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                ></iframe>
+{
+  project?.mapa?
+  <iframe src={`https://www.google.com/maps/embed?pb=${project?.mapa}`} width="100%" height="450"  ></iframe>:
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.8539530179232!2d-70.14154738848676!3d-15.492286015528267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9167f33e7a94e397%3A0x478965a0501413e7!2sSan%20Roman%20Constructora%20e%20Inmobiliaria!5e0!3m2!1ses-419!2spe!4v1685546707074!5m2!1ses-419!2spe"  ></iframe>
+
+}
                 <a href="https://maps-generator.com/">mapa</a>
               </div>
+              {/* <iframe src="https://www.google.com/maps/embed?pb=" width="100%" height="450"  ></iframe> */}
+
+
             </section>
           </div>
         </div>

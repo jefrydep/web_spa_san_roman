@@ -14,11 +14,11 @@ const Footer = () => {
         <div className="flex container m-auto flex-col gap-4 sm:grid sm:grid-cols-4 p-4    text-gray-300 mt-4 px-6">
           <div>
             <h3 className="text-center font-bold text-xl mb-5 text-primary-sm0">
-              Inmobiliarias del Perú
+            San Roman Constructora & Inmobiliaria
             </h3>
             <div className=" text-justify">
               <p className="">
-                02 años de expericiencia desarollando proyectos en los distritos
+                02 años de expericiencia desarrollando proyectos en los distritos
                 más allegados de juliaca, nos permite manejar información que
                 nos posicionan como proyectos de alta revalorización y valor de
                 compras.
