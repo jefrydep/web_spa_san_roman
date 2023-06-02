@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -15,7 +16,7 @@ const router = useRouter()
 
         <nav className="container m-auto sm:text-xl text-second-sm font-bold my-2  items-center   flex gap-3 h-10 sm:h-14 ">
           <div>
-            <img className="h-14" src="./assets/img/sanroman.svg" alt="Constructora San Roman" />
+            <Image width={300} height={300} src="./assets/img/sanroman.svg" alt="Constructora San Roman" />
           </div>
           <div className="flex gap-20 sm:text-xl font-bold justify-end w-full ">
             <Link className={` hover:text-primary-sm hidden sm:flex ${router.pathname == '/' &&'text-primary-sm' } `} href={"/"}>
@@ -44,7 +45,7 @@ const router = useRouter()
           <div className=" bg-black absolute z-30    bg-opacity-70 left-0 top-0 bottom-0 w-full h-[100vh]  ">
             <nav className="absolute left-1/3 flex flex-col items-center  gap-4 bg-second-sm right-0 h-[100vh]">
             <div>
-            <img className="h-24" src="./assets/img/san-roman-1.png" alt="Constructora San Roman" />
+            <Image width={150} height={150} src="/assets/img/sanroman1.png" alt="Constructora San Roman" />
           </div>
               <div
                 onClick={() => setMovilMenu(!movilMenu)}

@@ -4,7 +4,7 @@
     {
         "id":"1",
         "projecto":"Residencial villa tariachi",
-        "img":"/assets/img/residencial-tariachi.png",
+        "img":"/assets/img/rs-tariachi.png",
         "logo":"/assets/img/tariachi.png",
         "descriptionImg":"tariachi",
         "details":  {
@@ -23,7 +23,7 @@
     {
         "id":"2",
         "projecto":"Perlas de Chingora",
-        "img":"/assets/img/urb-perlasdechingora.jpg",
+        "img":"/assets/img/urb-perlas-chigora.jpg",
         "logo":"/assets/img/chingora.png",
         "descriptionImg":"chingora",
         
@@ -60,7 +60,12 @@
             "precio":"S/10.000"
 
         },
-        "beneficios":["Tramite en Registros Publicos","Vias Aperturadas","Areas Verdes"]
+        "beneficios":["Tramite en Registros Publicos","Vias Aperturadas","Areas Verdes"],
+        "mapa":"!1m17!1m12!1m3!1d36565.822626429086!2d-70.09642259230854!3d-15.56444950800637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDM0JzA2LjEiUyA3MMKwMDMnNTQuNiJX!5e0!3m2!1ses-419!2spe!4v1685725718145!5m2!1ses-419!2spe"
+
+
+
+
 
     },
     {
@@ -83,7 +88,7 @@
     {
         "id":"5",
         "projecto":"Nueva Estrella",
-        "img":"/assets/img/urb-nuevaestrella.jpg",
+        "img":"/assets/img/urb-nueva-estrella.jpg",
         "logo":"/assets/img/nueva_estrella.png",
         "descriptionImg":"Nueva estrella",
 
@@ -147,12 +152,15 @@
             "precio":"Desde S/26.000"
 
         },
-        "beneficios":["Alta Plusvalía","Inscrito en Registos Publicos","Areas Verdes","Vias Afirmadas"]
+        "beneficios":["Alta Plusvalía","Inscrito en Registos Publicos","Areas Verdes","Vias Afirmadas"],
+        "mapa":"!1m17!1m12!1m3!1d15375.045295567266!2d-70.09151646296345!3d-15.550920545592858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDMzJzEwLjAiUyA3MMKwMDQnNTguOCJX!5e0!3m2!1ses-419!2spe!4v1685725511678!5m2!1ses-419!2spe"
+
+
     },
     {
         "id":"9",
         "projecto":"Perlas de Chingora",
-        "img":"/assets/img/urb-perlasdechingora.jpg",
+        "img":"/assets/img/urb-perlas-chigora.jpg",
         "logo":"/assets/img/chingora.png",
         "descriptionImg":"chingora",
       

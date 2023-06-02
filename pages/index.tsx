@@ -15,13 +15,13 @@ export default function Home() {
     {
       slogan:
         " Trabajamos para que alcance el sueño de tener TU PROPIA VIVIENDA",
-      imgUrl: "bg-[url('/assets/img/urb-nuevaestrella.jpg')]",
+      imgUrl: "bg-[url('/assets/img/urb-nueva-estrella.jpg')]",
     },
   ];
   return (
     <>
       <Layout title="San Roman Constructora & Inmobiliaria">
-        <section className="bg-[url('/assets/img/urb-nuevaestrella.jpg')] bg-fixed    bg-cover   h-[60vh]">
+        <section className="bg-[url('/assets/img/urb-nueva-estrella.jpg')] bg-fixed    bg-cover   h-[60vh]">
           <div className="flex flex-col gap-6 h-full   justify-around items-center  ">
             <div className="bg-primary-sm absolute shadow-lg  max-w-3xl mx-4 rounded-xl ">
               <div className="bg-white relative -top-7 shadow-md rounded-xl   px-4 py-2 text-center h-24 mx-6">

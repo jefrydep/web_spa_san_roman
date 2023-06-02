@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";
+
+
 interface propsImg {
   img: string;
   imgTitle: string;
@@ -32,13 +34,14 @@ const Project = ({ img, imgTitle, id, logo }: propsImg) => {
               className="md:hover:scale-110 rounded-lg"
               src={img}
               alt={imgTitle}
-              height="500"
-              width="500"
+              width={500}
+              height={500}
+            
             />
 
             <div className=" items-center  flex gap-4 justify-around px-5 py-5">
               <div>
-                <img className="h-8" src={logo} alt="" />
+                <Image width={80} height={80} src={logo} alt="" />
               </div>
               <div>
                 <h4 className="bg-second-sm px-4 rounded-3xl text-white py-1 hover:bg-primary-sm ">
