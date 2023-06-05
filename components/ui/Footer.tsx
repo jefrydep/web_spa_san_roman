@@ -13,10 +13,10 @@ const Footer = () => {
       <footer className="bg-second-sm">
         <div className="flex container m-auto flex-col gap-4 sm:grid sm:grid-cols-4 p-4 font-gilroy text-gray-300 mt-4 px-6">
           <div>
-            <h3 className="text-center text-xl mb-5 text-primary-sm0">
+            <h3 className="text-center text-xl mb-5 font-bold text-primary-sm0">
             San Roman Constructora & Inmobiliaria
             </h3>
-            <div className=" text-justify">
+            <div className=" text-justify font-gilroy">
               <p className="">
                 02 años de expericiencia desarrollando proyectos en los distritos
                 más allegados de juliaca, nos permite manejar información que
