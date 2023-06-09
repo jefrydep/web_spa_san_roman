@@ -10,7 +10,7 @@ export default function nosotros() {
     {
       slogan:
         "¿Quienes Somos?",
-      imgUrl: "/assets/img/nosotros.jpg",
+      imgUrl: "/assets/img/fondo-nosotros.jpg",
     },
   ];
   return (
@@ -23,7 +23,7 @@ export default function nosotros() {
         <div className='bg-white  flex  items-center flex-col py-6'>
           <section className='px-4 mx-2 sm:w-2/3 items-center flex flex-col sm:grid sm:grid-cols-2 mb-2 pb-2 pt-3 mt-2 bg-white'>
             <div className=''>
-              <Image src='/assets/img/nosotros.jpg' height={500} width={400} alt='San Roman' />
+              <Image src='/assets/img/fondo-nosotros.jpg' height={500} width={400} alt='San Roman' />
             </div>
 
             <div className='text-second-sm'>
