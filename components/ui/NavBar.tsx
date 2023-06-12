@@ -77,7 +77,6 @@ const router = useRouter()
               className=" text-white  " href={"/contact"}>
                 Contactanos
               </Link>
-
                
             </nav>
           </div>

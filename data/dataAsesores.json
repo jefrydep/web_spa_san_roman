@@ -5,9 +5,8 @@
         
         "nombre":"Emerson Alvarez",
         "nivel":"Asesor de Ventas",
-        "whatssap":"958490350",
-        "correo":"Jefrydep@gmail.com"
-        
+        "whatssap":"958490350"
+      
         
     },
     {   
@@ -15,79 +14,70 @@
         "img":"/assets/img/eliot.png",
         "nombre":"Ana Gabriela Mamani",
         "nivel":"Asesora de Ventas",
-        "whatssap":"990400619",
-        "correo":"Jefrydep@gmail.com"
-        
-        
+        "whatssap":"990400619"
+                
     },
     {
         "id":"3",
         "img":"/assets/img/eliot.png",
         "nombre":" Martha Cruz",
         "nivel":"Licenciada",
-        "whatssap":"953754997",
-        "correo":"Jefrydep@gmail.com"
-        
-        
+        "whatssap":"953754997"
+      
+                
     },
     {
         "id":"4",
         "img":"/assets/img/eliot.png",
         "nombre":"Luis fernando Blass",
         "nivel":"Asesor de Ventas",
-        "whatssap":"927348039",
-        "correo":"Jefrydep@gmail.com"
-        
-        
+        "whatssap":"927348039"
+      
+                
     },
     {
         "id":"5",
         "img":"/assets/img/eliot.png",
         "nombre":"Cinthia Human",
         "nivel":"Licenciada",
-        "whatssap":"913701722",
-        "correo":"Jefrydep@gmail.com"
-        
-        
+        "whatssap":"913701722"
+      
+                
     },
     {
         "id":"6",
         "img":"/assets/img/eliot.png",
         "nombre":"Sayda Arizapana",
         "nivel":"Asesora de Ventas",
-        "whatssap":"943205181",
-        "correo":"Jefrydep@gmail.com"
-        
-        
+        "whatssap":"943205181"
+      
+                
     },
     {
         "id":"7",
         "img":"/assets/img/eliot.png",
         "nombre":"Yackelin Calcina",
         "nivel":"Asesora de Ventas",
-        "whatssap":"992281161",
-        "correo":"Jefrydep@gmail.com"
-        
-        
+        "whatssap":"992281161"
+      
+                
     },
     {
         "id":"8",
         "img":"/assets/img/eliot.png",
         "nombre":"Miriam Zeballos",
         "nivel":"Asesora de Ventas",
-        "whatssap":"965004818",
-        "correo":"Jefrydep@gmail.com"
-        
-        
+        "whatssap":"965004818"
+      
+                
     },
     {
         "id":"9",
         "img":"/assets/img/eliot.png",
         "nombre":"Eusebia Calcin Rodriguez",
         "nivel":"Asesora de Ventas",
-        "whatssap":"990400619",
-        "correo":"Jefrydep@gmail.com"
-        
+        "whatssap":"990400619"
+      
         
     },
     {
@@ -95,29 +85,26 @@
         "img":"/assets/img/eliot.png",
         "nombre":"Elba Cahuina",
         "nivel":"Asesora de Ventas",
-        "whatssap":"990400919",
-        "correo":"Jefrydep@gmail.com"
-        
-        
+        "whatssap":"990400919"
+      
+                
     },
     {
         "id":"11",
         "img":"/assets/img/eliot.png",
         "nombre":"Palomino Mayta Godofredo",
         "nivel":"Asesora de Ventas",
-        "whatssap":"958205138",
-        "correo":"Jefrydep@gmail.com"
-        
-        
+        "whatssap":"958205138"
+      
+                
     },
     {
         "id":"12",
         "img":"/assets/img/eliot.png",
         "nombre":"Palomino Mayta Godofredo",
         "nivel":"Asesora de Ventas",
-        "whatssap":"958205138",
-        "correo":"Jefrydep@gmail.com"
-        
-        
+        "whatssap":"958205138"
+      
+                
     }
 ]

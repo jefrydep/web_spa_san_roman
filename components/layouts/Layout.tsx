@@ -34,9 +34,7 @@ const Layout = ({children,title}:PropsWithChildren<Props>) => {
       </Head>
       <NavBar />
 
-
-      <main className=''
-      >
+      <main className=''>
         
         <div className='fixed  bottom-2 rounded-full p-3 left-2 sm:my-20 bg-black'>
             <a className='text-lg' target='_blank' href="https://www.tiktok.com/@sanromanconstructorain/"> <i className="fa fa-phone"></i>
@@ -56,9 +54,7 @@ const Layout = ({children,title}:PropsWithChildren<Props>) => {
         </div>
         {children}
       </main>
-      <Footer/>
-      
-    
+      <Footer/>    
     
     </ >
   )

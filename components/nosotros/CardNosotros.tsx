@@ -9,8 +9,6 @@ interface PropsNosotros {
 
 const CardNosotros = ({ title, description, icono }: PropsNosotros) => {
 
-
-
     return (
         < >
             <section className='px-4 mx-2   flex flex-col mb-2 pb-2 pt-3 mt-2 bg-white'>
@@ -31,9 +29,6 @@ const CardNosotros = ({ title, description, icono }: PropsNosotros) => {
                 </div>
 
             </section>
-
-
-
 
         </ >
     )

@@ -12,12 +12,10 @@
             "ubicacion":"Final de la Linea 23",
             "area":"2000m2",
             "precio":"S/14000"
-            
 
         },
         "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"],
         "mapa":"!1m18!1m12!1m3!1d3844.947603656952!2d-70.1867697!3d-15.487250300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9167f1fa8b7c494b%3A0xa82756457c4f8bc0!2sResidencial%20Villa%20Tariachi!5e0!3m2!1ses-419!2spe!4v1685548075341!5m2!1ses-419!2spe"
-        
         
     },
     {
@@ -26,9 +24,6 @@
         "img":"/assets/img/urb-perlas-chigora.jpg",
         "logo":"/assets/img/chingora.png",
         "descriptionImg":"chingora",
-        
-      
-         
         
         "details":  {
                 
@@ -40,10 +35,6 @@
         "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"],
         
         "mapa":"!1m17!1m12!1m3!1d3846.99127410147!2d-70.15436906804764!3d-15.376958905798963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDIyJzM3LjEiUyA3MMKwMDknMDUuMyJX!5e0!3m2!1ses-419!2spe!4v1685548659311!5m2!1ses-419!2spe"
-
-            
-        
-
 
     },
     {
@@ -62,9 +53,6 @@
         },
         "beneficios":["Tramite en Registros Publicos","Vias Aperturadas","Areas Verdes"],
         "mapa":"!1m17!1m12!1m3!1d36565.822626429086!2d-70.09642259230854!3d-15.56444950800637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDM0JzA2LjEiUyA3MMKwMDMnNTQuNiJX!5e0!3m2!1ses-419!2spe!4v1685725718145!5m2!1ses-419!2spe"
-
-
-
 
 
     },
@@ -155,7 +143,6 @@
         "beneficios":["Alta Plusvalía","Inscrito en Registos Publicos","Areas Verdes","Vias Afirmadas"],
         "mapa":"!1m17!1m12!1m3!1d15375.045295567266!2d-70.09151646296345!3d-15.550920545592858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDMzJzEwLjAiUyA3MMKwMDQnNTguOCJX!5e0!3m2!1ses-419!2spe!4v1685725511678!5m2!1ses-419!2spe"
 
-
     },
     {
         "id":"9",
@@ -163,9 +150,7 @@
         "img":"/assets/img/urb-perlas-chigora.jpg",
         "logo":"/assets/img/chingora.png",
         "descriptionImg":"chingora",
-      
-         
-        
+              
         "details":  {
                 
             "ubicacion":"Salida Cusco",
@@ -174,6 +159,5 @@
 
         },
         "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
-
     }
 ]

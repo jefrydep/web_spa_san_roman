@@ -39,8 +39,6 @@ const ProjectCard = ({ precio, ubicacion, area }: Props) => {
         </div>
       </div>
      
-
-
     </ >
   )
 }
