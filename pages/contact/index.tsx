@@ -1,4 +1,5 @@
 import Layout from '@/components/layouts/Layout';
+import Footer from '@/components/ui/Footer';
 import React from 'react'
 import { MdWhatsapp, MdFacebook } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
@@ -51,7 +52,7 @@ export default function contact   ()   {
     </div>
     
     </div>
-    
+    <Footer nombre='henryjhon.pk@gmail.com'/>    
     </Layout>
      </ >
   )

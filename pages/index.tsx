@@ -5,6 +5,7 @@ import dataProject from "../data/dataProject.json";
 import Project from "@/components/project/Project";
 import { useRouter } from "next/router";
 import Layout from "@/components/layouts/Layout";
+import Footer from "@/components/ui/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -80,7 +81,9 @@ export default function Home() {
             ))}
           </div>
         </section>
+        <Footer nombre='jefrydep@gmail.com'/>    
       </Layout>
+
     </>
   );
 }

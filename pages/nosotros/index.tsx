@@ -1,6 +1,7 @@
 import Hero from '@/components/hero/Hero';
 import Layout from '@/components/layouts/Layout';
 import CardNosotros from '@/components/nosotros/CardNosotros';
+import Footer from '@/components/ui/Footer';
 import Image from 'next/image';
 import React from 'react'
 import { BsSend } from "react-icons/bs";
@@ -63,7 +64,7 @@ export default function nosotros() {
           </section>
         </div>
       </div>
-
+      <Footer nombre='alfredo.26.blan@gmail.com'/>    
           </Layout>
     </>
   )

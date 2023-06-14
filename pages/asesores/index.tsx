@@ -1,6 +1,7 @@
 import CardAsesores from "@/components/asesores/CardAsesores";
 import dataAsesores from "../../data/dataAsesores.json";
 import Layout from "@/components/layouts/Layout";
+import Footer from "@/components/ui/Footer";
 
 export default function asesores() {
   return (
@@ -29,6 +30,8 @@ export default function asesores() {
         </section>
       </section>
     </div>
+    <Footer nombre='jefrydep@gmail.com'/>    
+
               </Layout>
   );
 }

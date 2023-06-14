@@ -6,7 +6,16 @@ import { MdEmail } from "react-icons/md";
 import { MdAddLocationAlt } from "react-icons/md";
 import { SiInstagram, SiTiktok } from "react-icons/si";
 
-const Footer = () => {
+
+interface Props {
+ 
+  nombre: string,
+ 
+
+}
+
+
+const Footer = ({nombre}:Props) => {
   const router = useRouter();
   return (
     <>
@@ -165,7 +174,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center  text-gray-400 border-t-2 p-4  ">
-          <h4>© Desarollado por Team Covid</h4>
+          <h4>© Desarollado por {nombre}</h4>
         
           <p>&copy; {new Date().getFullYear()} inmbiliariaSanRoman. Todos los derechos reservados.</p>
            

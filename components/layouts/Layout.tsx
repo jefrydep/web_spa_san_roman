@@ -54,7 +54,7 @@ const Layout = ({children,title}:PropsWithChildren<Props>) => {
         </div>
         {children}
       </main>
-      <Footer/>    
+
     
     </ >
   )

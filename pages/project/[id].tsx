@@ -5,6 +5,7 @@ import { getProjectById } from "@/helpers/getProjectById";
 import ProjectCard from "@/components/project/ProjectCard";
 import Layout from "@/components/layouts/Layout";
 import { GiPriceTag } from "react-icons/gi";
+import Footer from "@/components/ui/Footer";
 interface Props {
   id: string;
 }
@@ -71,6 +72,7 @@ export default function Project({ }: Props) {
             </section>
           </div>
         </div>
+        <Footer nombre='jefrydep@gmail.com'/>    
       </Layout>
     </>
   );
