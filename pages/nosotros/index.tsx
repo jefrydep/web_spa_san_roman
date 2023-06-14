@@ -9,8 +9,8 @@ import { BsHeartFill } from "react-icons/bs";
 export default function nosotros() {
   const dataHome = [
     {
-      slogan:
-        "¿Quienes Somos?",
+      logo:
+        "/assets/img/quienes-somos.png",
       imgUrl: "/assets/img/fondo-nosotros.jpg",
     },
   ];
@@ -18,7 +18,7 @@ export default function nosotros() {
     <>
     <Layout title='Nosotros'>
 
-      <Hero imgUrl={dataHome[0].imgUrl} slogan={dataHome[0].slogan} />
+      <Hero imgUrl={dataHome[0].imgUrl} logo={dataHome[0].logo} />
 
       
 
@@ -26,6 +26,7 @@ export default function nosotros() {
         <div className='bg-white  flex  items-center flex-col py-6'>
           <section className='px-4 mx-2 sm:w-2/3 items-center flex flex-col sm:grid sm:grid-cols-2 mb-2 pb-2 pt-3 mt-2 bg-white'>
             <div className=''>
+
               <Image src='/assets/img/fondo-nosotros.jpg' height={500} width={400} alt='San Roman' />
             </div>
 
