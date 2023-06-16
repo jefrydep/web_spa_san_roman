@@ -9,7 +9,7 @@ const Hero = ({ slogan, imgUrl, logo }: heroProps) => {
   return (
     <>
       <div className=" ">
-        <section className= "bg-fixed sm:bg-cover bg-cover bg-center h-[60vh]" style={{ backgroundImage: `url(${imgUrl})`}}>
+        <section className= "bg-fixed sm:bg-cover bg-cover bg-center h-[60vh] opacity-70" style={{ backgroundImage: `url(${imgUrl})`}}>
           <div className="flex flex-col gap-6 h-full   justify-around items-center  ">
             <div className="bg-primary-sm absolute shadow-lg  max-w-3xl mx-4 rounded-xl ">
               <div className="bg-white relative -top-7 shadow-md flex items-center px-8  rounded-xl text-center h-24 mx-6">
