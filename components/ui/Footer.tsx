@@ -176,7 +176,7 @@ const Footer = ({nombre}:Props) => {
         <div className="text-center  text-gray-400 border-t-2 p-4  ">
           <h4>© Desarollado por {nombre}</h4>
         
-          <p>&copy; {new Date().getFullYear()} inmbiliariaSanRoman. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} InmobiliariaSanRoman. Todos los derechos reservados.</p>
            
         </div>
       </footer>
