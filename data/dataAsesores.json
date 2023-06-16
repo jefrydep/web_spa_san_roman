@@ -1,7 +1,7 @@
 [
     {
         "id":"1",
-        "img":"/assets/img/eliot.png",
+        "img":"/assets/img/emerson.jpg",
         
         "nombre":"Emerson Alvarez",
         "nivel":"Asesor de Ventas",
@@ -19,7 +19,7 @@
     },
     {
         "id":"3",
-        "img":"/assets/img/eliot.png",
+        "img":"/assets/img/martha.jpg",
         "nombre":" Martha Cruz",
         "nivel":"Licenciada",
         "whatssap":"953754997"
@@ -37,7 +37,7 @@
     },
     {
         "id":"5",
-        "img":"/assets/img/eliot.png",
+        "img":"/assets/img/cinthia.jpg",
         "nombre":"Cinthia Human",
         "nivel":"Licenciada",
         "whatssap":"913701722"
@@ -46,7 +46,7 @@
     },
     {
         "id":"6",
-        "img":"/assets/img/eliot.png",
+        "img":"/assets/img/sayda.jpg",
         "nombre":"Sayda Arizapana",
         "nivel":"Asesora de Ventas",
         "whatssap":"943205181"
@@ -73,7 +73,7 @@
     },
     {
         "id":"9",
-        "img":"/assets/img/eliot.png",
+        "img":"/assets/img/eusebia.jpg",
         "nombre":"Eusebia Calcin Rodriguez",
         "nivel":"Asesora de Ventas",
         "whatssap":"990400619"
@@ -91,10 +91,10 @@
     },
     {
         "id":"11",
-        "img":"/assets/img/eliot.png",
-        "nombre":"Palomino Mayta Godofredo",
+        "img":"/assets/img/jessica.jpg",
+        "nombre":"jessica chambi",
         "nivel":"Asesora de Ventas",
-        "whatssap":"958205138"
+        "whatssap":"953519156"
       
                 
     },

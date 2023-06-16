@@ -51,12 +51,12 @@ const CardAsesores = ({
           </div>
         </div>
         <div>
-          <div className="flex">
+          <div className="flex justify-center">
             <h5 className="text-xl font-bold text-primary-sm0 mx-2">
               <MdWhatsapp />
             </h5>
             <a
-              className="text-lg text-second-sm "
+              className="text-lg text-second-sm"
               target="_blank"
               href={`https://wa.me/51${whatssap}`}
             >
