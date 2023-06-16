@@ -16,7 +16,7 @@ const Hero = ({ slogan, imgUrl, logo }: heroProps) => {
                 <h4 className="text-3xl font-bold text-primary-sm">
                 {slogan}
                 </h4>
-                <Image width={400} height={400} src={logo!} alt="Proyecto San Roman" />
+                <Image width={400} height={400} src={logo!} alt="Proyecto San Roman " />
               </div>
             </div>
             <div className="mx-3">

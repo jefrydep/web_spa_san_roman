@@ -30,15 +30,10 @@ export default function Project({ }: Props) {
     <>
       <Layout title={project?.projecto}>
         <div className="bg-white">
+
           <Hero logo={project?.logo} imgUrl={project?.img!} />
           <div className=" container m-auto">
-            <div className=" lg:grid lg:grid-cols-3 lg:gap-10 lg:h-36 lg:mt-10">
-              <ProjectCard
-                area={detail?.area!}
-                precio={detail?.precio!}
-                ubicacion={detail?.ubicacion!}
-              />
-            </div>
+            <div className=" lg:grid lg:grid-cols-2 lg:gap-3 lg:mt-10">
             <div className="border-2 rounded-md flex flex-col content-center items-center  justify-between border-primary-sm mx-2 mt-3 p-2 sm:px-7 ">
               <div className="text-5xl   font-bold text-primary-sm">
                 <GiPriceTag />
@@ -53,6 +48,13 @@ export default function Project({ }: Props) {
                 ))}
               </div>
             </div>
+              <ProjectCard
+                area={detail?.area!}
+                precio={detail?.precio!}
+                ubicacion={detail?.ubicacion!}
+              />
+            </div>
+            
             <section>
               <div>
                 <div className="text-3xl font-bold  flex  items-center content-center justify-center text-center h-24 text-blue-950 ">

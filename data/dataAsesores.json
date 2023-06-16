@@ -9,16 +9,9 @@
       
         
     },
-    {   
-        "id":"2",
-        "img":"/assets/img/eliot.png",
-        "nombre":"Ana Gabriela Mamani",
-        "nivel":"Asesora de Ventas",
-        "whatssap":"990400619"
-                
-    },
+    
     {
-        "id":"3",
+        "id":"2",
         "img":"/assets/img/martha.jpg",
         "nombre":" Martha Cruz",
         "nivel":"Licenciada",
@@ -26,17 +19,9 @@
       
                 
     },
+    
     {
-        "id":"4",
-        "img":"/assets/img/eliot.png",
-        "nombre":"Luis fernando Blass",
-        "nivel":"Asesor de Ventas",
-        "whatssap":"927348039"
-      
-                
-    },
-    {
-        "id":"5",
+        "id":"3",
         "img":"/assets/img/cinthia.jpg",
         "nombre":"Cinthia Human",
         "nivel":"Licenciada",
@@ -45,7 +30,7 @@
                 
     },
     {
-        "id":"6",
+        "id":"4",
         "img":"/assets/img/sayda.jpg",
         "nombre":"Sayda Arizapana",
         "nivel":"Asesora de Ventas",
@@ -53,26 +38,13 @@
       
                 
     },
-    {
-        "id":"7",
-        "img":"/assets/img/eliot.png",
-        "nombre":"Yackelin Calcina",
-        "nivel":"Asesora de Ventas",
-        "whatssap":"992281161"
+    
       
                 
-    },
+
+    
     {
-        "id":"8",
-        "img":"/assets/img/eliot.png",
-        "nombre":"Miriam Zeballos",
-        "nivel":"Asesora de Ventas",
-        "whatssap":"965004818"
-      
-                
-    },
-    {
-        "id":"9",
+        "id":"5",
         "img":"/assets/img/eusebia.jpg",
         "nombre":"Eusebia Calcin Rodriguez",
         "nivel":"Asesora de Ventas",
@@ -80,31 +52,15 @@
       
         
     },
+    
     {
-        "id":"10",
-        "img":"/assets/img/eliot.png",
-        "nombre":"Elba Cahuina",
-        "nivel":"Asesora de Ventas",
-        "whatssap":"990400919"
-      
-                
-    },
-    {
-        "id":"11",
+        "id":"6",
         "img":"/assets/img/jessica.jpg",
         "nombre":"jessica chambi",
         "nivel":"Asesora de Ventas",
         "whatssap":"953519156"
       
                 
-    },
-    {
-        "id":"12",
-        "img":"/assets/img/eliot.png",
-        "nombre":"Palomino Mayta Godofredo",
-        "nivel":"Asesora de Ventas",
-        "whatssap":"958205138"
-      
-                
     }
+    
 ]

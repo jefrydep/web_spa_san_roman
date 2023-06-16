@@ -10,8 +10,8 @@
         "details":  {
                 
             "ubicacion":"Final de la Linea 23",
-            "area":"2000m2",
-            "precio":"S/14000"
+            "area":"120 m2 a 136 m2",
+            "precio":"$ 14000"
 
         },
         "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"],
@@ -28,8 +28,8 @@
         "details":  {
                 
             "ubicacion":"Salida Cusco",
-            "area":"2000m2",
-            "precio":"S/1500"
+            "area":"160 m2",
+            "precio":"S/8000"
 
         },
         "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"],
@@ -47,7 +47,7 @@
         "details":  {
                 
             "ubicacion":"Salida Puno",
-            "area":"2000m2",
+            "area":"160 m2 a 200 m2",
             "precio":"S/10.000"
 
         },
@@ -66,7 +66,7 @@
         "details":  {
                 
             "ubicacion":"Caracoto",
-            "area":"2000m2",
+            "area":"200 m2",
             "precio":"S/2000"
 
         },
@@ -84,7 +84,7 @@
         "details":  {
                 
             "ubicacion":"Salida Cusco",
-            "area":"2000m2",
+            "area":"200 m2",
             "precio":" Desde S/4.500"
 
         },
@@ -94,7 +94,7 @@
     },
     {
         "id":"6",
-        "projecto":"Residencial Quiñones 1ra Etapa",
+        "projecto":"Residencial Quiñones",
         "img":"/assets/img/residencial-quiñones.png",
         "logo":"/assets/img/quiñones.png",
         "descriptionImg":"quiñones",
@@ -102,32 +102,16 @@
         "details":  {
                 
             "ubicacion":"Salida Puno",
-            "area":"2000m2",
+            "area":"200 m2",
             "precio":"Desde S/6.000"
 
         },
         "beneficios":["Portico de ingreso","Amplias Areas Verdes","Cancha de grass Deportiva","Vias Afirmadas","Proyeccion de Habilitacion Urbana"],
         "mapa":"!1m18!1m12!1m3!1d1712.0431448431564!2d-70.10358309239868!3d-15.569894846204283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9167f58a7f527e75%3A0xdedda981a2b2cd5e!2sResidencial%20Qui%C3%B1ones%20I%20y%20II!5e0!3m2!1ses-419!2spe!4v1685548300341!5m2!1ses-419!2spe"
     },
+   
     {
         "id":"7",
-        "projecto":"Residencial Quiñones 2da Etapa",
-        "img":"/assets/img/residencial-quiñones.png",
-        "logo":"/assets/img/quiñones2.png",
-        "descriptionImg":"quiñones II",
-        
-        "details":  {
-                
-            "ubicacion":"Salida Lampa",
-            "area":"2000m2",
-            "precio":"Desde S/8000"
-
-        },
-        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"],
-        "mapa":"!1m18!1m12!1m3!1d1712.0431448431564!2d-70.10358309239868!3d-15.569894846204283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9167f58a7f527e75%3A0xdedda981a2b2cd5e!2sResidencial%20Qui%C3%B1ones%20I%20y%20II!5e0!3m2!1ses-419!2spe!4v1685548300341!5m2!1ses-419!2spe"
-    },
-    {
-        "id":"8",
         "projecto":"Urbanizacion Rosales",
         "img":"/assets/img/urb-rosales.png",
         "logo":"/assets/img/rosales.png",
@@ -136,28 +120,13 @@
         "details":  {
                 
             "ubicacion":"Salida Puno",
-            "area":"2000m2",
+            "area":"160 m2",
             "precio":"Desde S/26.000"
 
         },
         "beneficios":["Alta Plusvalía","Inscrito en Registos Publicos","Areas Verdes","Vias Afirmadas"],
         "mapa":"!1m17!1m12!1m3!1d15375.045295567266!2d-70.09151646296345!3d-15.550920545592858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDMzJzEwLjAiUyA3MMKwMDQnNTguOCJX!5e0!3m2!1ses-419!2spe!4v1685725511678!5m2!1ses-419!2spe"
 
-    },
-    {
-        "id":"9",
-        "projecto":"Perlas de Chingora",
-        "img":"/assets/img/urb-perlas-chigora.jpg",
-        "logo":"/assets/img/chingora.png",
-        "descriptionImg":"chingora",
-              
-        "details":  {
-                
-            "ubicacion":"Salida Cusco",
-            "area":"2000m2",
-            "precio":"S/1500"
-
-        },
-        "beneficios":["Todos los Servicios basico (agua, luz, desague)","Portico de ingreso","Areas Verdes","Canchas de grass","Habilitacion Urbana","Inscrito en Registos Publicos"]
     }
+    
 ]

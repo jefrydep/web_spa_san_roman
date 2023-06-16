@@ -31,7 +31,7 @@ const Project = ({ img, imgTitle, id, logo }: propsImg) => {
           <div className=" ">
 
             <Image
-              className="md:hover:scale-110 rounded-lg"
+              className="md:hover:scale-110 rounded-lg "
               src={img}
               alt={imgTitle}
               width={500}

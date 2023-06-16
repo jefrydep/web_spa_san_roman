@@ -12,28 +12,26 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const data = dataProject;
   console.log(data);
-  const dataHome = [
-    {
-      slogan:
-        " Trabajamos para que alcance el sueño de tener TU PROPIA VIVIENDA",
-      imgUrl: "bg-[url('/assets/img/urb-nueva-estrella.jpg')]",
-    },
-  ];
+  
+  
   return (
     <>
       <Layout title="San Roman Constructora & Inmobiliaria">
-        <section className="bg-[url('/assets/img/urb-nueva-estrella.jpg')] bg-fixed    bg-cover   h-[60vh]">
-          <div className="flex flex-col gap-6 h-full   justify-around items-center  ">
+        <div className="bg-gradient-to-r bg-second-sm ">
+        <section className="bg-[url('/assets/img/urb-nueva-estrella.jpg')] bg-fixed    bg-cover   h-[60vh] opacity-60 relative ">
+          
+        </section>
+        <div className="flex flex-col gap-1 h-full   justify-around items-center absolute -top-28 sm:left-1/4 ">
             <div className="bg-primary-sm absolute shadow-lg  max-w-3xl mx-4 rounded-xl ">
               <div className="bg-white relative -top-7 shadow-md rounded-xl   px-4 py-2 text-center h-24 mx-6">
-                <h2 className="font-bold text-xl sm:text-3xl  text-primary-sm">
-                  Trabajamos para que alcance el sueño de tener TU PROPIA
-                  VIVIENDA
+                <h2 className="font-bold text-xl sm:text-4xl  text-primary-sm">
+                La llave para construir tu futuro está en nuestros terrenos.
+                
                 </h2>
               </div>
             </div>
             <div className="mx-3">
-              <h2 className=" font-bold text-white text-2xl sm:text-4xl text-center">
+              <h2 className=" font-bold text-primary-sm0 text-2xl sm:text-5xl text-center">
                 Asesoria, consultoria y gestion inmobiliaria
               </h2>
             </div>
@@ -42,7 +40,7 @@ export default function Home() {
               contactanos</a>
             </button>
           </div>
-        </section>
+        </div>
         <section className="  text-white font-bold bg-second-sm sm:h-48 flex  ">
           <div className="container m-auto flex flex-col pt-6 pb-6 items-center gap-2 sm:grid  sm:grid-cols-4   ">
             <h3 className="text-2xl lg:text-4xl text-primary-sm0 ">
@@ -50,7 +48,7 @@ export default function Home() {
             </h3>
 
             <div className="text-center">
-              <h3 className="text-4xl lg:text-6xl">2</h3>
+              <h3 className="text-4xl lg:text-6xl">+2</h3>
               <h3 className="text-primary-sm0">Años de experiencia</h3>
             </div>
             <div className="text-center">
@@ -65,8 +63,8 @@ export default function Home() {
         </section>
         <section className="flex bg-white py-3 flex-col gap-3 text-center ">
           <div className="text-4xl sm:py-8 py-4 sm:text-6xl  font-bold border-b-4 sm:border-0 border-second-sm rounded-full">
-            <h2 className="text-gray-950">Nuestros</h2>
-            <span className="text-yellow-500">Proyectos</span>
+            <h2 className="text-gray-950">Nuestros Proyectos</h2>
+          
           </div>
           <div className="container  flex flex-col m-auto sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {data.map((project) => (
